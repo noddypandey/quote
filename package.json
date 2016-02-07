@@ -1,0 +1,26 @@
+{
+  "name": "myquotes",
+  "version": "1.0.0",
+  "description": "quotes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "noddy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.13.3",
+    "express-flash": "git://github.com/RGBboy/express-flash.git",
+    "jade": "^1.11.0",
+    "mysql": "felixge/node-mysql",
+    "passport": "^0.3.2",
+    "socket.io": "^1.4.4"
+  }
+}
